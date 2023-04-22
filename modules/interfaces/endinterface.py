@@ -1,16 +1,7 @@
-'''
-Function:
-    游戏结束界面
-Author:
-    Charles
-微信公众号:
-    Charles的皮卡丘
-'''
 import pygame
 from .....utils import QuitGame
 
 
-'''游戏结束界面'''
 def GameEndInterface(screen, cfg, resource_loader):
     replay_image = resource_loader.images['replay']
     replay_image = pygame.transform.scale(replay_image, (35, 31))

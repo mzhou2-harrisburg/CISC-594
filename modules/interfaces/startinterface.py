@@ -1,17 +1,8 @@
-'''
-Function:
-    游戏开始界面
-Author:
-    Charles
-微信公众号:
-    Charles的皮卡丘
-'''
 import pygame
 from ..sprites import Dinosaur
 from .....utils import QuitGame
 
 
-'''游戏开始界面'''
 def GameStartInterface(screen, sounds, cfg, resource_loader):
     dino = Dinosaur(resource_loader.images['dino'])
     ground = resource_loader.images['ground'].subsurface((0, 0), (83, 19))
