@@ -1,3 +1,11 @@
+'''
+Function:
+    仿谷歌浏览器小恐龙游戏
+Author:
+    Charles
+微信公众号:
+    Charles的皮卡丘
+'''
 import os
 import random
 import pygame
